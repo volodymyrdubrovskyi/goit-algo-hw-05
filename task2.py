@@ -5,6 +5,7 @@ def binary_search_upperbound(arr, x):
     upper_bound = arr[-1]
     iteration = 0
 
+    # не можемо надати верхню межу - пошуковий елемент більший за найбільший елемент масиву
     if upper_bound < x:
         return iteration, None
  
